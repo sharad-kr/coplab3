@@ -1,0 +1,568 @@
+.rectangle-icon {
+  position: relative;
+  width: 115px;
+  height: 89px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.span10 {
+  color: var(--color-mediumblue);
+}
+.med2 {
+  color: var(--color-navy);
+}
+.rktg-med2 {
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logo-child1 {
+  width: 145px;
+  height: 52px;
+  flex-shrink: 0;
+}
+.logo2 {
+  position: absolute;
+  top: 12px;
+  left: 49px;
+  width: 180px;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.home6 {
+  position: relative;
+}
+.home5 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+.book-an-appointment3 {
+  position: relative;
+  cursor: pointer;
+}
+.nav-buttons2 {
+  position: absolute;
+  top: 45px;
+  left: 344px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+  color: var(--color-black);
+}
+.nav-bar-child1,
+.nav-bar-child2 {
+  position: absolute;
+  box-sizing: border-box;
+}
+.nav-bar-child1 {
+  top: -1.5px;
+  left: 256.5px;
+  border-right: 3px solid var(--color-darkgray);
+  width: 3px;
+  height: 138px;
+}
+.nav-bar-child2 {
+  top: 160.5px;
+  left: -1.5px;
+  border-top: 3px solid var(--color-darkgray);
+  width: 1835px;
+  height: 3px;
+}
+.nav-bar2 {
+  position: absolute;
+  top: 40px;
+  left: 44px;
+  width: 1832px;
+  height: 162px;
+  text-align: center;
+  color: var(--color-darkblue);
+}
+.group-icon1 {
+  position: absolute;
+  top: 11.25px;
+  right: 148.25px;
+  width: 87.5px;
+  height: 83.5px;
+}
+.login-sign1 {
+  position: absolute;
+  top: 22px;
+  left: 102px;
+  display: inline-block;
+  width: 121px;
+  height: 55px;
+}
+.login-button-item,
+.login-button1 {
+  position: absolute;
+  width: 251px;
+  height: 115px;
+}
+.login-button-item {
+  top: 0;
+  left: 0;
+  border-radius: var(--br-3xl);
+  background-color: var(--color-gainsboro-100);
+  border: 2px solid var(--color-black);
+  box-sizing: border-box;
+}
+.login-button1 {
+  top: 50px;
+  right: 92px;
+  cursor: pointer;
+  text-align: center;
+}
+.medshop-child {
+  position: absolute;
+  top: 256px;
+  left: 302px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 827px;
+  height: 44px;
+}
+.search-for-medicines {
+  position: absolute;
+  top: 259px;
+  left: 362px;
+  color: #919191;
+  display: inline-block;
+  width: 680px;
+  height: 61px;
+}
+.material-symbolssearch-icon {
+  position: absolute;
+  top: 256px;
+  left: 310px;
+  width: 38px;
+  height: 40px;
+  overflow: hidden;
+}
+.medshop-item {
+  position: absolute;
+  top: 366px;
+  left: 0;
+  background-color: #aed7fc;
+  width: 1920px;
+  height: 293px;
+}
+.fast-healthcare,
+.reliable-on-time {
+  position: absolute;
+  left: 302px;
+  display: inline-block;
+}
+.reliable-on-time {
+  top: 429px;
+  font-size: var(--font-size-17xl);
+  width: 600px;
+  height: 65px;
+}
+.fast-healthcare {
+  top: 382px;
+  color: #03257b;
+  width: 311px;
+  height: 50px;
+}
+.our-in-house-pharmacists,
+.popular-products {
+  position: absolute;
+  top: 505px;
+  left: 296px;
+  display: inline-block;
+  width: 771px;
+  height: 65px;
+}
+.popular-products {
+  top: 723px;
+  left: 306px;
+  font-family: var(--font-inter);
+  width: 296px;
+  height: 39px;
+}
+.medshop-child1,
+.medshop-child2,
+.medshop-child3,
+.medshop-child4,
+.medshop-inner {
+  position: absolute;
+  top: 794px;
+  left: 302px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 216px;
+  height: 267px;
+}
+.medshop-child1,
+.medshop-child2,
+.medshop-child3,
+.medshop-child4 {
+  left: 602px;
+}
+.medshop-child2,
+.medshop-child3,
+.medshop-child4 {
+  left: 902px;
+}
+.medshop-child3,
+.medshop-child4 {
+  left: 1202px;
+}
+.medshop-child4 {
+  left: 1502px;
+}
+.line-icon,
+.medshop-child10 {
+  position: absolute;
+  top: 962px;
+  left: 314px;
+  width: 190px;
+  height: 1px;
+}
+.medshop-child10 {
+  left: 614px;
+}
+.medshop-child11,
+.medshop-child12,
+.medshop-child13 {
+  position: absolute;
+  top: 962px;
+  left: 914px;
+  width: 190px;
+  height: 1px;
+}
+.medshop-child12,
+.medshop-child13 {
+  left: 1214px;
+}
+.medshop-child13 {
+  left: 1514px;
+}
+.zincovit-tablet {
+  margin-block-start: 0;
+  margin-block-end: 8px;
+}
+.rs-10500 {
+  margin: 0;
+}
+.zincovit-tablet-rs-container {
+  position: absolute;
+  top: 977px;
+  left: 312px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  width: 192px;
+  height: 48px;
+}
+.dettol-antiseptic-liquid-container,
+.electral-powder-rs-container,
+.moov-spray-80gm-container,
+.shelcal-500mg-tablet-container {
+  position: absolute;
+  top: 977px;
+  left: 612px;
+  font-size: var(--font-size-xl);
+  display: inline-block;
+  width: 192px;
+  height: 48px;
+}
+.dettol-antiseptic-liquid-container,
+.electral-powder-rs-container,
+.shelcal-500mg-tablet-container {
+  left: 912px;
+}
+.electral-powder-rs-container,
+.shelcal-500mg-tablet-container {
+  left: 1212px;
+}
+.electral-powder-rs-container {
+  left: 1512px;
+}
+.medshop-child14,
+.medshop-child15 {
+  position: absolute;
+  top: 794px;
+  left: 337px;
+  width: 145px;
+  height: 160px;
+  object-fit: cover;
+}
+.medshop-child15 {
+  left: 637px;
+}
+.medshop-child16,
+.medshop-child17,
+.medshop-child18 {
+  position: absolute;
+  top: 794px;
+  left: 937px;
+  width: 130px;
+  height: 135px;
+  object-fit: cover;
+}
+.medshop-child17,
+.medshop-child18 {
+  left: 1237px;
+  width: 145px;
+  height: 160px;
+}
+.medshop-child18 {
+  left: 1537px;
+}
+.medshop-child19 {
+  position: absolute;
+  top: 1209px;
+  left: 0;
+  background-color: var(--color-gray-100);
+  width: 1920px;
+  height: 349px;
+}
+.phenvelope-simple-light1,
+.vector-icon4,
+.vector-icon5 {
+  position: absolute;
+  top: 1504px;
+  left: 1017px;
+  width: 111px;
+  height: 111px;
+  overflow: hidden;
+}
+.vector-icon4,
+.vector-icon5 {
+  height: 3.53%;
+  width: 3.75%;
+  top: 88.85%;
+  right: 25.89%;
+  bottom: 7.63%;
+  left: 70.36%;
+  max-width: 100%;
+  max-height: 100%;
+}
+.vector-icon5 {
+  width: 2.86%;
+  top: 83.46%;
+  right: 26.56%;
+  bottom: 13.01%;
+  left: 70.57%;
+}
+.a1,
+.inforktgmednet1 {
+  position: absolute;
+  top: 1308px;
+  left: 1487px;
+  font-size: var(--font-size-15xl);
+  font-weight: 700;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  display: inline-block;
+  width: 1177px;
+  height: 57px;
+  text-decoration: none;
+}
+.inforktgmednet1 {
+  top: 1384px;
+  left: 1495px;
+  width: 793px;
+}
+.icon1 {
+  position: absolute;
+  top: 1232px;
+  left: 213px;
+  border-radius: var(--br-3xs);
+  width: 142px;
+  height: 125px;
+  object-fit: cover;
+}
+.this-website-provides1 {
+  position: absolute;
+  top: 1372px;
+  left: 75px;
+  font-size: var(--font-size-7xl);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 481px;
+  height: 133px;
+}
+.home-book-an-container3 {
+  line-break: anywhere;
+  width: 100%;
+}
+.contact-us6,
+.home-book-an-container2,
+.quick-links1 {
+  position: absolute;
+  font-family: var(--font-inter);
+  color: var(--color-white);
+}
+.home-book-an-container2 {
+  top: 1285px;
+  left: 693px;
+  font-size: var(--font-size-7xl);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  width: 481px;
+  height: 240px;
+}
+.contact-us6,
+.quick-links1 {
+  top: 1242px;
+  left: 816px;
+  font-size: var(--font-size-15xl);
+  text-transform: uppercase;
+  display: inline-block;
+  width: 322px;
+  height: 56px;
+}
+.contact-us6 {
+  top: 1241px;
+  left: 1455px;
+}
+.medshop-child20,
+.medshop-child21 {
+  position: absolute;
+  top: 1230px;
+  left: 610px;
+  border-right: 4px solid var(--color-slateblue);
+  box-sizing: border-box;
+  width: 4px;
+  height: 300px;
+}
+.medshop-child21 {
+  left: 1276px;
+}
+.vector-icon6,
+.vector-icon7 {
+  position: absolute;
+  height: 2.93%;
+  width: 2.39%;
+  top: 94.81%;
+  right: 15.32%;
+  bottom: 2.26%;
+  left: 82.29%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon7 {
+  height: 3.53%;
+  width: 2.86%;
+  top: 94.62%;
+  right: 11.15%;
+  bottom: 1.86%;
+  left: 85.99%;
+}
+.unsplashipx7j1n-xuc-icon {
+  position: absolute;
+  top: 366px;
+  left: 1389px;
+  width: 380px;
+  height: 293px;
+  object-fit: cover;
+}
+.follow-us1 {
+  position: absolute;
+  top: 1466px;
+  left: 1327px;
+  font-size: var(--font-size-21xl);
+  font-family: var(--font-inter);
+  color: var(--color-white);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 237px;
+  height: 71px;
+}
+.material-symbolsshopping-cart {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  background-color: var(--color-white);
+  width: 58px;
+  height: 59px;
+  overflow: hidden;
+  mix-blend-mode: normal;
+}
+.vector-icon8 {
+  position: absolute;
+  height: 63.03%;
+  width: 13.09%;
+  top: 16.67%;
+  right: 66.59%;
+  bottom: 20.3%;
+  left: 20.33%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.order {
+  position: absolute;
+  top: 15px;
+  left: 165px;
+  display: inline-block;
+  width: 204px;
+  height: 63px;
+}
+.your-cart-button-child {
+  position: absolute;
+  top: -0.5px;
+  left: 45.5px;
+  border-right: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 1px;
+  height: 74px;
+}
+.your-cart-button-item {
+  position: absolute;
+  top: 72px;
+  left: 46px;
+  width: 256px;
+  height: 2px;
+}
+.your-cart-button-inner {
+  position: absolute;
+  top: -0.5px;
+  left: 45.5px;
+  border-top: 1px solid var(--color-black);
+  box-sizing: border-box;
+  width: 257px;
+  height: 1px;
+}
+.your-cart-button-child1 {
+  position: absolute;
+  top: 0;
+  left: 301.5px;
+  width: 1px;
+  height: 73px;
+}
+.your-cart-button {
+  position: absolute;
+  top: 243px;
+  left: 1438px;
+  width: 369px;
+  height: 78px;
+  font-size: var(--font-size-13xl);
+}
+.medshop3 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1560px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-9xl);
+  color: var(--color-black);
+  font-family: var(--font-inria-serif);
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    {% if name %}
+      <meta  {{ name }} content="initial-scale=1, width=device-width" />
+      <h1>Hello {{ name }}!</h1>
+    {% else %}
+      <meta  {{ name }}content="initial-scale=1, width=device-width" />
+      <h1>Hello, World!</h1>
+    {% endif %}
+    
+    <link rel="stylesheet" href="{{ url_for('static',filename='global.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static',filename='profile-page.css') }}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Serif:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="profile-page">
+      <div class="nav-bar1">
+        <div class="logo1">
+          <img class="logo-inner" alt="" src="{{ url_for('static',filename='rectangle-1@2x.png') }}" />
+          <div class="rktg-med1">
+            <span><span>RKTG</span><span class="span9"> </span></span
+            ><b class="med1">MED</b>
+          </div>
+          <div class="frame-div"></div>
+        </div>
+        <div class="nav-buttons1">
+          <div class="home2" id="homeContainer"><b class="home3">Home</b></div>
+          <b class="book-an-appointment1" id="bookAnAppointment"
+            >Book An Appointment</b
+          ><b class="home3">MedShop</b
+          ><b class="book-an-appointment1" id="aboutUsText">About Us</b
+          ><b class="book-an-appointment1" id="contactUsText">Contact Us</b
+          ><b class="home3">Find Doctors</b>
+        </div>
+        <div class="nav-bar-inner"></div>
+        <div class="line-div"></div>
+      </div>
+      <div class="login-button">
+        <img class="group-icon" alt="" src="{{ url_for('static',filename='group.svg') }}" /><b
+          class="login-sign"
+          >Login / Sign Up</b
+        >
+        <div class="login-button-child"></div>
+      </div>
+      <div class="profile-page-child"></div>
+      <b class="name-mobile-container"
+        ><p class="mobile-no">Name :</p>
+        <p class="mobile-no">Mobile No :</p>
+        <p class="mobile-no">Email ID :</p></b
+      ><img class="profile-page-item" alt="" src="{{ url_for('static',filename='ellipse-9.svg') }}" /><b
+        class="profile-photo"
+        >Profile Photo</b
+      >
+      <div class="profile-page-inner"></div>
+      <div class="phenvelope-simple-light"></div>
+      <img class="vector-icon" alt="" src="{{ url_for('static',filename='vector.svg') }}" /><img
+        class="vector-icon1"
+        alt=""
+        src="{{ url_for('static',filename='vector1.svg') }}"
+      /><a class="a" href="tel:+91 98123 54321" target="_blank"
+        >+91 98123 54321</a
+      ><a class="inforktgmednet" href="mailto: info@rktgmed.net" target="_blank"
+        >info@rktgmed.net</a
+      ><img class="icon" alt="" src="{{ url_for('static',filename='15032023-2153-1@2x.png') }}" />
+      <div class="this-website-provides">
+        This website provides an online medicine purchasing platform. Patients
+        can book a one-to-one appointment with doctors.
+      </div>
+      <div class="home-book-an-container">
+        <span class="home-book-an-container1"
+          ><p class="home4">Home</p>
+          <p class="home4">Book An Appointment</p>
+          <p class="home4">Medshop</p>
+          <p class="home4">About Us</p>
+          <p class="home4">Contact Us</p>
+          <p class="home4">Find Doctors</p></span
+        >
+      </div>
+      <b class="quick-links">Quick Links</b
+      ><b class="contact-us3">Contact us</b>
+      <div class="profile-page-child1"></div>
+      <div class="profile-page-child2"></div>
+      <img class="vector-icon2" alt="" src="{{ url_for('static',filename='vector2.svg') }}" /><img
+        class="vector-icon3"
+        alt=""
+        src="{{ url_for('static',filename='vector3.svg') }}"
+      />
+      <div class="follow-us">Follow Us :</div>
+    </div>
+
+    <script>
+      var homeContainer = document.getElementById("homeContainer");
+      if (homeContainer) {
+        homeContainer.addEventListener("click", function (e) {
+          window.location.href="{{ url_for('static',filename='home-page.html') }}";
+        });
+      }
+      
+      var bookAnAppointment = document.getElementById("bookAnAppointment");
+      if (bookAnAppointment) {
+        bookAnAppointment.addEventListener("click", function (e) {
+          window.location.href="{{ url_for('static',filename='book-an-appointment.html') }}";
+        });
+      }
+      
+      var aboutUsText = document.getElementById("aboutUsText");
+      if (aboutUsText) {
+        aboutUsText.addEventListener("click", function (e) {
+          window.location.href="{{ url_for('static',filename='about-us.html') }}";
+        });
+      }
+      
+      var contactUsText = document.getElementById("contactUsText");
+      if (contactUsText) {
+        contactUsText.addEventListener("click", function (e) {
+          window.location.href="{{ url_for('static',filename='contact-us.html') }}";
+        });
+      }
+      </script>
+  </body>
+</html>

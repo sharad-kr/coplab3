@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="{{ url_for('static',filename='global.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static',filename='index.css') }}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Serif:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="login-page">
+      <b class="name"><span>{{ Name }}</span><span class="span">*</span></b
+      ><b class="contact-no-container"
+        ><span>{{ Contact_No }}</span><span class="span">*</span></b
+      ><b class="email-id-container"
+        ><span>{{Email_Id}} </span><span class="span">*</span></b
+      ><b class="username"><span>{{Username }}</span><span class="span">*</span></b
+      ><b class="password"><span>{{Password }}</span><span class="span">*</span></b
+      ><b class="username1"
+        ><span>{{Username}} </span><span class="span">*</span></b
+      >
+      <div class="login">Login</div>
+      <div class="sign-up">Sign Up</div>
+      <b class="password1"><span>{{Password }}</span><span class="span">*</span></b
+      ><b class="verify-password-container"
+        ><span>{{Verify_Password }}</span><span class="span">*</span></b
+      ><img class="login-page-child" alt="" src="{{ url_for('static',filename='line-11.svg') }}" />
+      <div class="login-page-item"></div>
+      <div class="login-page-inner"></div>
+      <div class="rectangle-div"></div>
+      <div class="login-page-child1"></div>
+      <div class="login-page-child2"></div>
+      <div class="login-page-child3"></div>
+      <div class="login-page-child4"></div>
+      <div class="login-page-child5"></div>
+      <img
+        class="healthiconsui-user-profile"
+        alt=""
+        src="{{ url_for('static',filename='healthiconsuiuserprofile.svg') }}"
+      />
+      <div class="nav-bar">
+        <div class="logo">
+          <img class="logo-child" alt="" src="{{ url_for('static',filename='rectangle-1@2x.png') }}" />
+          <div class="rktg-med">
+            <span><span>RKTG</span><span class="span8"> </span></span
+            ><b class="med">MED</b>
+          </div>
+          <div class="logo-item"></div>
+        </div>
+        <div class="nav-buttons">
+          <div class="home" id="homeContainer">
+            <b class="find-doctors">Home</b>
+          </div>
+          <b class="book-an-appointment" id="bookAnAppointment"
+            >Book An Appointment</b
+          ><b class="book-an-appointment" id="medShopText">MedShop</b
+          ><b class="book-an-appointment" id="aboutUsText">About Us</b
+          ><b class="book-an-appointment" id="contactUsText">Contact Us</b
+          ><b class="find-doctors">Find Doctors</b>
+        </div>
+        <div class="nav-bar-child"></div>
+        <div class="nav-bar-item"></div>
+      </div>
+      <div class="ob-formslogin">
+        <div class="name1"><span> </span><span class="login1">Login</span></div>
+      </div>
+      <div class="ob-formssign-up"><div class="name1">Sign up</div></div>
+    </div>
+
+    <script>
+      var homeContainer = document.getElementById("homeContainer");
+      if (homeContainer) {
+        homeContainer.addEventListener("click", function (e) {
+          window.location.href="{{ url_for('static',filename='home-page.html') }}";
+        });
+      }
+      
+      var bookAnAppointment = document.getElementById("bookAnAppointment");
+      if (bookAnAppointment) {
+        bookAnAppointment.addEventListener("click", function (e) {
+          window.location.href="{{ url_for('static',filename='book-an-appointment.html') }}";
+        });
+      }
+      
+      var medShopText = document.getElementById("medShopText");
+      if (medShopText) {
+        medShopText.addEventListener("click", function (e) {
+          window.location.href="{{ url_for('static',filename='med-shop.html') }}";
+        });
+      }
+      
+      var aboutUsText = document.getElementById("aboutUsText");
+      if (aboutUsText) {
+        aboutUsText.addEventListener("click", function (e) {
+          window.location.href="{{ url_for('static',filename='about-us.html') }}";
+        });
+      }
+      
+      var contactUsText = document.getElementById("contactUsText");
+      if (contactUsText) {
+        contactUsText.addEventListener("click", function (e) {
+          window.location.href="{{ url_for('static',filename='contact-us.html') }}";
+        });
+      }
+      </script>
+  </body>
+</html>

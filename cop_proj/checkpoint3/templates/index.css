@@ -1,0 +1,285 @@
+.span {
+  color: var(--color-firebrick);
+}
+.contact-no-container,
+.email-id-container,
+.name,
+.password,
+.username,
+.username1 {
+  position: absolute;
+  top: 306px;
+  left: 1095px;
+  display: inline-block;
+  width: 291px;
+  height: 39px;
+}
+.contact-no-container,
+.email-id-container,
+.password,
+.username,
+.username1 {
+  top: 405px;
+}
+.email-id-container,
+.password,
+.username,
+.username1 {
+  top: 494px;
+}
+.password,
+.username,
+.username1 {
+  top: 583px;
+}
+.password,
+.username1 {
+  top: 674px;
+}
+.username1 {
+  top: 595px;
+  left: 165px;
+}
+.login {
+  top: 484px;
+  left: 388px;
+  font-size: var(--font-size-26xl);
+  font-weight: 800;
+  color: var(--color-slateblue);
+}
+.login,
+.password1,
+.sign-up,
+.verify-password-container {
+  position: absolute;
+  display: inline-block;
+  width: 291px;
+  height: 39px;
+}
+.sign-up {
+  top: 227px;
+  left: 1341px;
+  font-size: var(--font-size-26xl);
+  font-weight: 800;
+  color: var(--color-slateblue);
+}
+.password1,
+.verify-password-container {
+  top: 712px;
+  left: 165px;
+}
+.verify-password-container {
+  top: 765px;
+  left: 1095px;
+  width: 330px;
+  height: 42px;
+}
+.login-page-child,
+.login-page-item {
+  position: absolute;
+  top: 230px;
+  left: 976px;
+  width: 6px;
+  height: 792.01px;
+}
+.login-page-item {
+  top: 587px;
+  left: 408px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 412px;
+  height: 65px;
+}
+.login-page-child1,
+.login-page-child2,
+.login-page-child3,
+.login-page-child4,
+.login-page-child5,
+.login-page-inner,
+.rectangle-div {
+  position: absolute;
+  top: 293px;
+  left: 1426px;
+  background-color: var(--color-white);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 412px;
+  height: 65px;
+}
+.login-page-child1,
+.login-page-child2,
+.login-page-child3,
+.login-page-child4,
+.login-page-child5,
+.rectangle-div {
+  top: 385px;
+}
+.login-page-child1,
+.login-page-child2,
+.login-page-child3,
+.login-page-child4,
+.login-page-child5 {
+  top: 477px;
+}
+.login-page-child2,
+.login-page-child3,
+.login-page-child4,
+.login-page-child5 {
+  top: 569px;
+}
+.login-page-child3,
+.login-page-child4,
+.login-page-child5 {
+  top: 661px;
+}
+.login-page-child4,
+.login-page-child5 {
+  top: 753px;
+}
+.login-page-child5 {
+  top: 707px;
+  left: 408px;
+}
+.healthiconsui-user-profile {
+  position: absolute;
+  top: 293px;
+  left: 366px;
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+}
+.logo-child {
+  position: relative;
+  width: 115px;
+  height: 89px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.span8 {
+  color: var(--color-mediumblue);
+}
+.med {
+  color: var(--color-navy);
+}
+.rktg-med {
+  position: relative;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+}
+.logo-item {
+  width: 145px;
+  height: 52px;
+  flex-shrink: 0;
+}
+.home,
+.logo {
+  display: flex;
+  justify-content: flex-start;
+}
+.logo {
+  position: absolute;
+  top: 12px;
+  left: 49px;
+  width: 180px;
+  height: 150px;
+  flex-direction: column;
+  align-items: center;
+}
+.home {
+  flex-direction: row;
+  align-items: flex-end;
+  cursor: pointer;
+}
+.book-an-appointment {
+  position: relative;
+  cursor: pointer;
+}
+.find-doctors {
+  position: relative;
+}
+.nav-buttons {
+  position: absolute;
+  top: 45px;
+  left: 344px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-26xl);
+  color: var(--color-black);
+}
+.nav-bar-child,
+.nav-bar-item {
+  position: absolute;
+  box-sizing: border-box;
+}
+.nav-bar-child {
+  top: -1.5px;
+  left: 256.5px;
+  border-right: 3px solid var(--color-darkgray);
+  width: 3px;
+  height: 138px;
+}
+.nav-bar-item {
+  top: 160.5px;
+  left: -1.5px;
+  border-top: 3px solid var(--color-darkgray);
+  width: 1835px;
+  height: 3px;
+}
+.nav-bar {
+  position: absolute;
+  top: 40px;
+  left: 44px;
+  width: 1832px;
+  height: 162px;
+  text-align: center;
+  font-size: var(--font-size-9xl);
+  color: var(--color-darkblue);
+  font-family: var(--font-inria-serif);
+}
+.login1 {
+  font-size: var(--font-size-23xl);
+}
+.name1 {
+  position: relative;
+  line-height: 28px;
+}
+.ob-formslogin,
+.ob-formssign-up {
+  position: absolute;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-mediumslateblue-100);
+  border: 1px solid var(--color-mediumslateblue-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-mini);
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+  color: var(--color-white);
+}
+.ob-formslogin {
+  top: 849px;
+  left: 364px;
+  width: 190px;
+  height: 75px;
+  font-size: var(--font-size-11xl);
+}
+.ob-formssign-up {
+  top: 855px;
+  left: 1374px;
+  width: 170px;
+  height: 90px;
+  font-size: 35px;
+}
+.login-page {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1080px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-15xl);
+  color: var(--color-black);
+  font-family: var(--font-inter);
+}

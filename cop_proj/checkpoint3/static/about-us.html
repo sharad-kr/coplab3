@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="{{ url_for('static',filename='global.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static',filename='about-us.css') }}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Serif:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="about-us7">
+      <div class="about-us8">
+        <div class="nav-bar4">
+          <div class="logo4">
+            <img class="logo-child4" alt="" src="{{ url_for('static',filename='rectangle-1@2x.png') }}" />
+            <div class="rktg-med4">
+              <span><span>RKTG</span><span class="span12"> </span></span
+              ><b class="med4">MED</b>
+            </div>
+            <div class="logo-child5"></div>
+          </div>
+          <div class="nav-buttons4">
+            <div class="home11" id="homeContainer">
+              <b class="home12">Home</b>
+            </div>
+            <b class="book-an-appointment7" id="bookAnAppointment"
+              >Book An Appointment</b
+            ><b class="book-an-appointment7" id="medShopText">MedShop</b
+            ><b class="home12">About Us</b
+            ><b class="book-an-appointment7" id="contactUsText">Contact Us</b
+            ><b class="home12">Find Doctors</b>
+          </div>
+          <div class="nav-bar-child5"></div>
+          <div class="nav-bar-child6"></div>
+        </div>
+        <div class="login-button3" id="loginButtonContainer">
+          <img class="group-icon3" alt="" src="{{ url_for('static',filename='group2.svg') }}" /><b
+            class="login-sign3"
+            >Login / Sign Up</b
+          >
+          <div class="login-button-child1"></div>
+        </div>
+        <b class="about-us10">About us</b>
+        <div class="this-website-provides-container">
+          <p class="one-of-the">
+            This website provides an online medicine purchasing platform.
+            Patients can book a one-to-one appointment with doctors.
+          </p>
+          <p class="one-of-the">
+            One of the best online medicine purchasing platform. We not only
+            provide the online medicine purchasing facility but also provide
+            one-to-one appointments with doctors. It’s a reputed firm since
+            1996. Here, the doctors are really friendly and cooperative with the
+            patients. The self satisfactory online consultants as well as door
+            step visit of doctors. Assists you to quickly search for doctors by
+            speciality , location, services and schedule an appointment for a
+            video consultation (or) a home visit. Also, you can do an instant
+            video consultation with the online doctors and get immediate expert
+            opinions during a need. Additionally, you will be notified about the
+            broadcasts/sessions by our specialists and you can watch it live
+            from your mobile app.
+          </p>
+        </div>
+        <img class="icon3" alt="" src="{{ url_for('static',filename='15032023-1804-1@2x.png') }}" />
+        <div class="about-us-child"></div>
+        <div class="phenvelope-simple-light4"></div>
+        <img class="vector-icon17" alt="" src="{{ url_for('static',filename='vector.svg') }}" /><img
+          class="vector-icon18"
+          alt=""
+          src="{{ url_for('static',filename='vector1.svg') }}"
+        /><a class="a4" href="tel:+91 98123 54321" target="_blank"
+          >+91 98123 54321</a
+        ><a
+          class="inforktgmednet4"
+          href="mailto: info@rktgmed.net"
+          target="_blank"
+          >info@rktgmed.net</a
+        ><img class="icon4" alt="" src="{{ url_for('static',filename='15032023-2153-1@2x.png') }}" />
+        <div class="this-website-provides4">
+          This website provides an online medicine purchasing platform. Patients
+          can book a one-to-one appointment with doctors.
+        </div>
+        <div class="home-book-an-container6">
+          <span class="home-book-an-container7"
+            ><p class="one-of-the">Home</p>
+            <p class="one-of-the">Book An Appointment</p>
+            <p class="one-of-the">Medshop</p>
+            <p class="one-of-the">About Us</p>
+            <p class="one-of-the">Contact Us</p>
+            <p class="one-of-the">Find Doctors</p></span
+          >
+        </div>
+        <b class="quick-links3">Quick Links</b
+        ><b class="contact-us14">Contact us</b>
+        <div class="about-us-item"></div>
+        <div class="about-us-inner"></div>
+        <img class="vector-icon19" alt="" src="{{ url_for('static',filename='vector2.svg') }}" /><img
+          class="vector-icon20"
+          alt=""
+          src="{{ url_for('static',filename='vector3.svg') }}"
+        />
+        <div class="follow-us4">Follow Us :</div>
+      </div>
+    </div>
+
+    <script>
+      var homeContainer = document.getElementById("homeContainer");
+      if (homeContainer) {
+        homeContainer.addEventListener("click", function (e) {
+          window.location.href="{{ url_for('static',filename='home-page.html') }}";
+        });
+      }
+      
+      var bookAnAppointment = document.getElementById("bookAnAppointment");
+      if (bookAnAppointment) {
+        bookAnAppointment.addEventListener("click", function (e) {
+          window.location.href="{{ url_for('static',filename='book-an-appointment.html') }}";
+        });
+      }
+      
+      var medShopText = document.getElementById("medShopText");
+      if (medShopText) {
+        medShopText.addEventListener("click", function (e) {
+          window.location.href="{{ url_for('static',filename='med-shop.html') }}";
+        });
+      }
+      
+      var contactUsText = document.getElementById("contactUsText");
+      if (contactUsText) {
+        contactUsText.addEventListener("click", function (e) {
+          window.location.href="{{ url_for('static',filename='contact-us.html') }}";
+        });
+      }
+      
+      var loginButtonContainer = document.getElementById("loginButtonContainer");
+      if (loginButtonContainer) {
+        loginButtonContainer.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      </script>
+  </body>
+</html>

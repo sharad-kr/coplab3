@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="{{ url_for('static',filename='global.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static',filename='book-an-appointment.css') }}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Serif:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="book-an-appointment9">
+      <div class="nav-bar5">
+        <div class="logo5">
+          <img class="logo-child6" alt="" src="{{ url_for('static',filename='rectangle-1@2x.png') }}" />
+          <div class="rktg-med5">
+            <span><span>RKTG</span><span class="span13"> </span></span
+            ><b class="med5">MED</b>
+          </div>
+          <div class="logo-child7"></div>
+        </div>
+        <div class="nav-buttons5">
+          <div class="home14" id="homeContainer">
+            <b class="home15">Home</b>
+          </div>
+          <b class="home15">Book An Appointment</b
+          ><b class="medshop10" id="medShopText">MedShop</b
+          ><b class="medshop10" id="aboutUsText">About Us</b
+          ><b class="medshop10" id="contactUsText">Contact Us</b
+          ><b class="home15">Find Doctors</b>
+        </div>
+        <div class="nav-bar-child7"></div>
+        <div class="nav-bar-child8"></div>
+      </div>
+      <div class="login-button4" id="loginButtonContainer">
+        <img class="group-icon4" alt="" src="{{ url_for('static',filename='group2.svg') }}" /><b
+          class="login-sign4"
+          >Login / Sign Up</b
+        >
+        <div class="login-button-child2"></div>
+      </div>
+      <div class="book-an-appointment-child"></div>
+      <div class="book-an-appointment-item"></div>
+      <div class="speciality-of-doctor">Speciality of doctor :</div>
+      <img
+        class="book-an-appointment-inner"
+        alt=""
+        src="{{ url_for('static',filename='polygon-1.svg') }}"
+      /><b class="consult-with-a">Consult with a Doctor</b>
+      <div class="mobile-no1">Mobile No :</div>
+      <div class="book-an-appointment-child1"></div>
+      <div class="a-verification-code">
+        A verification code will be sent to this number.
+      </div>
+      <div class="book-an-appointment-child2"></div>
+      <b class="book-an-appointment11">Book An Appointment</b
+      ><img class="chat-icon" alt="" src="{{ url_for('static',filename='chat.svg') }}" /><b
+        class="free-follow-up"
+        >Free follow-up</b
+      ><img class="comment-icon" alt="" src="{{ url_for('static',filename='comment.svg') }}" />
+      <div class="footer">
+        <div class="footer-child"></div>
+        <div class="phenvelope-simple-light5"></div>
+        <img class="vector-icon21" alt="" src="{{ url_for('static',filename='vector.svg') }}" /><img
+          class="vector-icon22"
+          alt=""
+          src="{{ url_for('static',filename='vector1.svg') }}"
+        /><a class="a5" href="tel:+91 98123 54321" target="_blank"
+          >+91 98123 54321</a
+        ><a
+          class="inforktgmednet5"
+          href="mailto: info@rktgmed.net"
+          target="_blank"
+          >info@rktgmed.net</a
+        ><img class="icon5" alt="" src="{{ url_for('static',filename='15032023-2153-1@2x.png') }}" />
+        <div class="this-website-provides5">
+          This website provides an online medicine purchasing platform. Patients
+          can book a one-to-one appointment with doctors.
+        </div>
+        <div class="home-book-an-container8">
+          <span class="home-book-an-container9"
+            ><p class="home16">Home</p>
+            <p class="home16">Book An Appointment</p>
+            <p class="home16">Medshop</p>
+            <p class="home16">About Us</p>
+            <p class="home16">Contact Us</p>
+            <p class="home16">Find Doctors</p></span
+          >
+        </div>
+        <b class="quick-links4">Quick Links</b
+        ><b class="contact-us17">Contact us</b>
+        <div class="footer-item"></div>
+        <div class="footer-inner"></div>
+        <img class="vector-icon23" alt="" src="{{ url_for('static',filename='vector2.svg') }}" /><img
+          class="vector-icon24"
+          alt=""
+          src="{{ url_for('static',filename='vector3.svg') }}"
+        />
+        <div class="follow-us5">Follow Us :</div>
+      </div>
+      <div class="enter-mobile-number">Enter Mobile Number</div>
+      <div class="select-an-option">Select an option</div>
+    </div>
+
+    <script>
+      var homeContainer = document.getElementById("homeContainer");
+      if (homeContainer) {
+        homeContainer.addEventListener("click", function (e) {
+          window.location.href="{{ url_for('static',filename='home-page.html') }}";
+        });
+      }
+      
+      var medShopText = document.getElementById("medShopText");
+      if (medShopText) {
+        medShopText.addEventListener("click", function (e) {
+          window.location.href="{{ url_for('static',filename='med-shop.html') }}";
+        });
+      }
+      
+      var aboutUsText = document.getElementById("aboutUsText");
+      if (aboutUsText) {
+        aboutUsText.addEventListener("click", function (e) {
+          window.location.href="{{ url_for('static',filename='about-us.html') }}";
+        });
+      }
+      
+      var contactUsText = document.getElementById("contactUsText");
+      if (contactUsText) {
+        contactUsText.addEventListener("click", function (e) {
+          window.location.href="{{ url_for('static',filename='contact-us.html') }}";
+        });
+      }
+      
+      var loginButtonContainer = document.getElementById("loginButtonContainer");
+      if (loginButtonContainer) {
+        loginButtonContainer.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      </script>
+  </body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+    <link rel="stylesheet" href="{{ url_for('static',filename='global.css') }}" />
+    <link rel="stylesheet" href="{{ url_for('static',filename='contact-us.css') }}" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inria Serif:wght@400;700&display=swap"
+    />
+  </head>
+  <body>
+    <div class="contact-us7">
+      <div class="contact-us-child"></div>
+      <div class="nav-bar3">
+        <div class="logo3">
+          <img class="logo-child2" alt="" src="{{ url_for('static',filename='rectangle-1@2x.png') }}" />
+          <div class="rktg-med3">
+            <span><span>RKTG</span><span class="span11"> </span></span
+            ><b class="med3">MED</b>
+          </div>
+          <div class="logo-child3"></div>
+        </div>
+        <div class="nav-buttons3">
+          <div class="home8" id="homeContainer"><b class="home9">Home</b></div>
+          <b class="book-an-appointment5" id="bookAnAppointment"
+            >Book An Appointment</b
+          ><b class="book-an-appointment5" id="medShopText">MedShop</b
+          ><b class="book-an-appointment5" id="aboutUsText">About Us</b
+          ><b class="home9">Contact Us</b><b class="home9">Find Doctors</b>
+        </div>
+        <div class="nav-bar-child3"></div>
+        <div class="nav-bar-child4"></div>
+      </div>
+      <div class="login-button2" id="loginButtonContainer">
+        <img class="group-icon2" alt="" src="{{ url_for('static',filename='group.svg') }}" /><b
+          class="login-sign2"
+          >Login / Sign Up</b
+        >
+        <div class="login-button-inner"></div>
+      </div>
+      <b class="contact-us9">Contact us</b>
+      <div class="phenvelope-simple-light2"></div>
+      <img class="vector-icon9" alt="" src="{{ url_for('static',filename='vector5.svg') }}" /><img
+        class="gislocationpoi0-icon"
+        alt=""
+        src="{{ url_for('static',filename='gislocationpoi0.svg') }}"
+      /><img class="vector-icon10" alt="" src="{{ url_for('static',filename='vector1.svg') }}" /><b
+        class="iit-delhi-main"
+        >IIT Delhi Main Rd, IIT Campus, Hauz Khas, New Delhi, Delhi 110016</b
+      ><a class="a2" href="tel:+91 98123 54321" target="_blank"
+        >+91 98123 54321</a
+      ><a
+        class="inforktgmednet2"
+        href="mailto: info@rktgmed.net"
+        target="_blank"
+        >info@rktgmed.net</a
+      >
+      <div class="phenvelope-simple-light3"></div>
+      <img class="vector-icon11" alt="" src="{{ url_for('static',filename='vector.svg') }}" /><img
+        class="vector-icon12"
+        alt=""
+        src="{{ url_for('static',filename='vector1.svg') }}"
+      /><a class="a3" href="tel:+91 98123 54321" target="_blank"
+        >+91 98123 54321</a
+      ><a
+        class="inforktgmednet3"
+        href="mailto: info@rktgmed.net"
+        target="_blank"
+        >info@rktgmed.net</a
+      ><img class="icon2" alt="" src="{{ url_for('static',filename='15032023-2153-1@2x.png') }}" />
+      <div class="this-website-provides2">
+        This website provides an online medicine purchasing platform. Patients
+        can book a one-to-one appointment with doctors.
+      </div>
+      <div class="home-book-an-container4">
+        <span class="home-book-an-container5"
+          ><p class="home10">Home</p>
+          <p class="home10">Book An Appointment</p>
+          <p class="home10">Medshop</p>
+          <p class="home10">About Us</p>
+          <p class="home10">Contact Us</p>
+          <p class="home10">Find Doctors</p></span
+        >
+      </div>
+      <b class="quick-links2">Quick Links</b
+      ><b class="contact-us11">Contact us</b>
+      <div class="contact-us-item"></div>
+      <div class="contact-us-inner"></div>
+      <img class="vector-icon13" alt="" src="{{ url_for('static',filename='vector6.svg') }}" /><img
+        class="vector-icon14"
+        alt=""
+        src="{{ url_for('static',filename='vector2.svg') }}"
+      /><img class="vector-icon15" alt="" src="{{ url_for('static',filename='vector7.svg') }}" /><img
+        class="vector-icon16"
+        alt=""
+        src="{{ url_for('static',filename='vector3.svg') }}"
+
+      />
+      <div class="follow-us2">Follow Us :</div>
+      <div class="follow-us3">Follow Us :</div>
+    </div>
+
+    <script>
+      var homeContainer = document.getElementById("homeContainer");
+      if (homeContainer) {
+        homeContainer.addEventListener("click", function (e) {
+          window.location.href="{{ url_for('static',filename='home-page.html') }}";
+        });
+      }
+      
+      var bookAnAppointment = document.getElementById("bookAnAppointment");
+      if (bookAnAppointment) {
+        bookAnAppointment.addEventListener("click", function (e) {
+          window.location.href="{{ url_for('static',filename='book-an-appointment.html') }}";
+        });
+      }
+      
+      var medShopText = document.getElementById("medShopText");
+      if (medShopText) {
+        medShopText.addEventListener("click", function (e) {
+          window.location.href="{{ url_for('static',filename='med-shop.html') }}";
+        });
+      }
+      
+      var aboutUsText = document.getElementById("aboutUsText");
+      if (aboutUsText) {
+        aboutUsText.addEventListener("click", function (e) {
+          window.location.href="{{ url_for('static',filename='about-us.html') }}";
+        });
+      }
+      
+      var loginButtonContainer = document.getElementById("loginButtonContainer");
+      if (loginButtonContainer) {
+        loginButtonContainer.addEventListener("click", function (e) {
+          window.location.href = "/";
+        });
+      }
+      </script>
+  </body>
+</html>
